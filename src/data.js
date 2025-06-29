@@ -22,13 +22,10 @@ export const data = {
             id: 7, nombre: 'Carapulcra', precio: 16.00, imagen: 'https://www.joseantonio.com.pe/wp-content/uploads/2019/07/carapulcra-400x400.jpg'
         },
         {
-            id: 8, nombre: 'Causa rellena de langostinos', precio: 22.00, imagen: 'https://www.joseantonio.com.pe/wp-content/uploads/2019/07/causa-rellena-de-langostinos-1-400x400.jpg'
+            id: 8, nombre: 'Causa de langostinos', precio: 22.00, imagen: 'https://www.joseantonio.com.pe/wp-content/uploads/2019/07/causa-rellena-de-langostinos-1-400x400.jpg'
         },
         {
             id: 9, nombre: 'Pescado a la chorrillana', precio: 27.00, imagen: 'https://www.joseantonio.com.pe/wp-content/uploads/2019/07/lenguado-o-pescado-a-la-chorrillana-1-400x400.jpg'
-        },
-        {
-            id: 10, nombre: 'Palta rellena de verduras', precio: 14.00, imagen: 'hhttps://www.joseantonio.com.pe/wp-content/uploads/2019/07/palta-rellena-de-verduras-1-400x400.jpg'
         }
     ]
 }

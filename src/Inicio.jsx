@@ -1,15 +1,18 @@
 import { data } from "./data";
-import Plato from "./comp/Plato";
+import VisorPlato from "./comp/VisorPlato";
 
 const Inicio = () => {
 
     const {platos} = data;
 
+    
+
     return (
         <main className="container">
-            <section className="row">
-                <p className="fs-3 text-primary mt-4">Platos criollos peruanos Manual</p>
-                <Plato platos={platos}/>
+            <p className="fs-3 text-primary mt-4 text-center">Platos criollos peruanos</p>
+            <section className="d-flex justify-content-center">
+                <VisorPlato platos={platos} manual={true}/>
+                <VisorPlato platos={platos} manual={false}/>
             </section>
 
         </main>
